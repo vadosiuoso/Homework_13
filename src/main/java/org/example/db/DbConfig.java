@@ -6,9 +6,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DbConfig {
-    private static final String CONFIG_FILE_PATH = "application.properties";
-    private static final String CONFIG_URL_KEY = "db.url";
-    private static final String CONFIG_USER_KEY = "user";
+    private static final String CONFIG_FILE_PATH = "hibernate.properties";
+    private static final String CONFIG_URL_KEY = "hibernate.connection.url";
+    private static final String CONFIG_USER_KEY = "hibernate.connection.password";
     private static final String CONFIG_PASSWORD_KEY = "password";
     private static final Map<String, String> CONFIGURATION = new HashMap<>();
 

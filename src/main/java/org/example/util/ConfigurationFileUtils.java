@@ -9,9 +9,10 @@ import java.util.Objects;
 import java.util.Properties;
 
 public final class ConfigurationFileUtils {
-    private static final String URL = "db.url";
-    private static final String USER = "user";
-    private static final String PASSWORD = "password";
+    private static final String URL = "hibernate.connection.url";
+    private static final String USER = "hibernate.connection.user";
+    private static final String PASSWORD = "hibernate.connection.password";
+            ;
 
     public static Map<String, String> getConfigurationFromFile(String filePath) {
         Map<String, String> configuration = new HashMap<>();
